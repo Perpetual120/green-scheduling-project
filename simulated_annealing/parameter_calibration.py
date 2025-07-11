@@ -11,7 +11,7 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 # Runtime configuration
 # -------------------------------
 MAX_RUNTIME = 2.0  # seconds per SA run
-NUM_WORKERS = 15   # number of parallel workers
+NUM_WORKERS = 1   # number of parallel workers
 
 # -------------------------------
 # 1. DATA LOADING
