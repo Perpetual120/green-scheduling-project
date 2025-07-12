@@ -335,7 +335,7 @@ if __name__ == "__main__":
     }
 
     tabu_sizes = [5, 10, 15, 20, 25, 30, 35, 40]
-    runs_per_setting = 3
+    runs_per_setting = 5
     PENAL_WEIGHT = 10
     N_MOVES = 30
 
