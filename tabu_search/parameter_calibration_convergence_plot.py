@@ -9,7 +9,7 @@ from itertools import combinations
 from concurrent.futures import ProcessPoolExecutor
 
 # Number of parallel workers
-MAX_WORKERS = 16
+MAX_WORKERS = 1
 
 # =============================================================================
 # Helper for parallel execution
@@ -300,7 +300,7 @@ class FlowshopTS:
 # 3) Main: Evaluate, collect, and save all datapoints; plot time-based convergence
 # =============================================================================
 if __name__ == "__main__":
-    DATA_DIR = r"/home/isaaca/Desktop/selected_datasets"
+    DATA_DIR = r"/green-scheduling-project/benchmark/"
 
     easy_list = [
         'ps4j2m-setup125_1.31_0.63_63321.txt',
